@@ -1,0 +1,20 @@
+Trabalho Prático de Inteligência Artificial
+Aluna: Alice de Melo Maia
+
+
+O agente reativo baseado em modelos escolhido, foi o exemplo dado em sala, aspirador de pó simples. 
+Foi feito na linguagem Python.
+O aspirador de pó, terá ao todo 25 salas definidas. 
+
+O estado é a sala atual, que pode estar:
+
+- Limpa.
+- Não limpa.
+- Lista de salas já limpas pelo aspirador.
+
+O aspirador só para de trabalhar, quando 100% das salas estiverem limpas.
+
+O aspirador irá escolher aleatóriamente uma sala não visitada, entre as salas disponíveis acima,em baixo, 
+a direita e a esquerda, se elas existirem. Se estas salas já tiverem sido limpas, ele precisa escolher aleatóriamente entre essas salas 
+já visiatadas, para ser limpa novamente e assim poder ir as demais não limpas.
+
